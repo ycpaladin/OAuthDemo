@@ -9,7 +9,7 @@ using System.Web.Http.Cors;
 
 namespace ResourceServer.Controllers
 {
-    [EnableCors(origins: "*", headers: "accept, authorization", methods: "*")]
+    [EnableCors(origins: "http://localhost:8003", headers: "accept, authorization", methods: "*")]
     [Authorize]
     public class MeController : ApiController
     {
