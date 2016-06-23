@@ -42,7 +42,6 @@ C:\Users\issuser\Documents\OAuthDemo\ResourceServer\bin\System.Net.Http.Formatti
 C:\Users\issuser\Documents\OAuthDemo\ResourceServer\bin\System.Web.Http.dll
 C:\Users\issuser\Documents\OAuthDemo\ResourceServer\bin\System.Web.Http.WebHost.dll
 C:\Users\issuser\Documents\OAuthDemo\ResourceServer\bin\System.Web.Optimization.dll
-C:\Users\issuser\Documents\OAuthDemo\ResourceServer\bin\WebApiContrib.dll
 C:\Users\issuser\Documents\OAuthDemo\ResourceServer\bin\WebGrease.dll
 C:\Users\issuser\Documents\OAuthDemo\ResourceServer\bin\Microsoft.Owin.xml
 C:\Users\issuser\Documents\OAuthDemo\ResourceServer\bin\Microsoft.Owin.Host.SystemWeb.xml
@@ -54,6 +53,8 @@ C:\Users\issuser\Documents\OAuthDemo\ResourceServer\bin\System.Web.Http.xml
 C:\Users\issuser\Documents\OAuthDemo\ResourceServer\bin\System.Web.Http.WebHost.xml
 C:\Users\issuser\Documents\OAuthDemo\ResourceServer\bin\System.Web.Optimization.xml
 C:\Users\issuser\Documents\OAuthDemo\ResourceServer\bin\Antlr3.Runtime.pdb
-C:\Users\issuser\Documents\OAuthDemo\ResourceServer\obj\Debug\ResourceServer.csprojResolveAssemblyReference.cache
 C:\Users\issuser\Documents\OAuthDemo\ResourceServer\obj\Debug\ResourceServer.dll
 C:\Users\issuser\Documents\OAuthDemo\ResourceServer\obj\Debug\ResourceServer.pdb
+C:\Users\issuser\Documents\OAuthDemo\ResourceServer\bin\System.Web.Cors.dll
+C:\Users\issuser\Documents\OAuthDemo\ResourceServer\bin\System.Web.Http.Cors.dll
+C:\Users\issuser\Documents\OAuthDemo\ResourceServer\bin\System.Web.Http.Cors.xml

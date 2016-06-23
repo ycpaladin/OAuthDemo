@@ -13,7 +13,6 @@ namespace ResourceServer
         public void Configuration(IAppBuilder app)
         {
             ConfigureAuth(app);
-            //HandlerConfig.RegisterHandlers(GlobalConfiguration.Configuration.MessageHandlers);
         }
     }
 }

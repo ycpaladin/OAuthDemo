@@ -50,29 +50,18 @@
 
                 window.open(uri, 'Authorize', 'width=640,height=480');
             });
-            $.support.cors = true;
+
             $('#CallApi').click(function () {
-                var deferred = $.Deferred();
                 $.ajax({
                     url: apiUri,
                     type: 'GET',
+                    cross: true,
                     beforeSend: function (xhr) {
                         xhr.setRequestHeader('Authorization', 'Bearer ' + $('#AccessToken').val());
-                        xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
-                    },
-                    sccuess: function (d) {
-                        console.log(d);
-                        $('#output').text(d);
                     }
+                }).done(function (d) {
+                    $('#output').text(d);
                 })
-
-                //deferred.then(function (d) {
-                //    console.log(d);
-                //    $('#output').text(d);
-                //}, function (e) {
-                //    alert('error');
-                //})
-
             });
 
             function addQueryString(uri, parameters) {

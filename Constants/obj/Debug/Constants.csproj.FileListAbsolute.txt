@@ -4,6 +4,5 @@ D:\temp\AuthorizationServer\AuthorizationServer\Constants\obj\Debug\Constants.dl
 D:\temp\AuthorizationServer\AuthorizationServer\Constants\obj\Debug\Constants.pdb
 C:\Users\issuser\Documents\OAuthDemo\Constants\bin\Debug\Constants.dll
 C:\Users\issuser\Documents\OAuthDemo\Constants\bin\Debug\Constants.pdb
-C:\Users\issuser\Documents\OAuthDemo\Constants\obj\Debug\Constants.csprojResolveAssemblyReference.cache
 C:\Users\issuser\Documents\OAuthDemo\Constants\obj\Debug\Constants.dll
 C:\Users\issuser\Documents\OAuthDemo\Constants\obj\Debug\Constants.pdb

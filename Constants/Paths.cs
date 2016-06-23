@@ -11,22 +11,22 @@ namespace Constants
         /// <summary>
         /// AuthorizationServer project should run on this URL
         /// </summary>
-        public const string AuthorizationServerBaseAddress = "http://localhost:11625";
+        public const string AuthorizationServerBaseAddress = "http://localhost:8001";
 
         /// <summary>
         /// ResourceServer project should run on this URL
         /// </summary>
-        public const string ResourceServerBaseAddress = "http://localhost:38385";
+        public const string ResourceServerBaseAddress = "http://localhost:8002";
 
         /// <summary>
         /// ImplicitGrant project should be running on this specific port '38515'
         /// </summary>
-        public const string ImplicitGrantCallBackPath = "http://localhost:38515/Home/SignIn";
+        public const string ImplicitGrantCallBackPath = "http://localhost:8003/Home/SignIn";
 
         /// <summary>
         /// AuthorizationCodeGrant project should be running on this URL.
         /// </summary>
-        public const string AuthorizeCodeCallBackPath = "http://localhost:38500/";
+        public const string AuthorizeCodeCallBackPath = "http://localhost:8004/";
 
         public const string AuthorizePath = "/OAuth/Authorize";
         public const string TokenPath = "/OAuth/Token";

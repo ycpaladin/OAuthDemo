@@ -4,14 +4,17 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
-using WebApiContrib.Filters;
+using System.Web.Http.Cors;
+
 
 namespace ResourceServer.Controllers
 {
+    [EnableCors(origins: "*", headers: "accept, authorization", methods: "*")]
     [Authorize]
     public class MeController : ApiController
     {
-        [EnableCors]
+        
+        [HttpGet]
         public string Get()
         {
             return this.User.Identity.Name;
